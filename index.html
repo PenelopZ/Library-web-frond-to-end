@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Raynor Library //Marquette University</title>
+		<link rel = "stylesheet" href = "css/base.css"/>
+		<link rel = "stylesheet" href = "css/index.css"/>
+		
+	
+		<script type="text/javascript" src="test.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				var aLi = document.getElementsByTagName('li');
+				// var currentLi = null;
+				var currentCt = null;
+				
+				for (var i=0; i<aLi.length; i++) {
+					aLi[i].onmouseover = function(){
+						this.className = 'active';
+						
+						// get specific div
+						currentCt = this.getElementsByTagName('div')[0];
+						currentCt.style.display = 'block';
+					}
+					
+					aLi[i].onmouseout = function(){
+						this.className = '';
+						
+						currentCt = this.getElementsByTagName('div')[0];
+						currentCt.style.display = 'none';
+					}
+				}
+			});
+		</script>
+		
+		
+		
+	</head>
+	
+	
+	<body>
+		<!--1.  header-->
+		<div id = "header">
+			<div class ="header-content">
+				<div class = "logo">
+					<a href="index.html"> <img src="img/logo.png"/></a>
+					<div class = "key">
+						<p>BE THE REASON</p>
+						<p>BE THE SOLUTION</p>
+						<p>BE THE DIFFERENCE</p>
+					</div>
+				</div>
+					<div class = "nav">
+						<ul>
+							<li class="active"><a href = "index.html">HOME</a>
+								
+								<div class="content">
+					               <a href="#">HOME1</a>
+					               <a href="#">HOME2</a>
+					               <a href="#">HOME3</a>
+					               <a href="#">HOME4</a>
+					               <a href="#">HOME5</a>
+								</div>
+				                
+				                
+							</li>
+							<li><a href = "html/about.html">ABOUT</a>
+								</li>
+							<li><a href = "html/server.html">SERVICES</a>
+							</li>
+							<li><a href = "html/success.html">FIND</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		
+		<!--2. body -->
+		<div id = "main">
+			<div class ="main-content">
+				<div class="banner"></div>
+				
+				<div class ="quickfind">
+					
+					<!--search bar-->
+			</div>
+		</div>
+		
+		        <div class="our">
+					<div class="title">IMPORTENT &nbsp;POINTS </div>
+					<p class="detail">Read them carefully, you will get a easier life in Rayor</p>
+					
+					<div class="show">
+						<div class="section">
+							<div class = "clock"></div>
+							<h4>Library Hours</h4>
+							<p> Raynor Lower Level	7:45am ‐ 11:30pm Raynor 1st Floor	24 Hours</p>
+						</div>
+						<div class="section" style="margin: 0 57px;">
+							<div class = "help"></div>
+							<h4>Contacr AND Help</h4>
+							<p>Research questions: (414) 288-7556 library access: (414) 288-7555.</p>
+						</div>
+						<div class="section">
+							<div class = "visitor"></div>
+							<h4>Visitors</h4>
+							<p>Guests accompanied by a valid Marquette ID holder
+								 will be admitted to the library after submitting 
+								 a valid photo ID</p>
+						</div>
+					</div>
+				</div>
+		
+		
+		
+		
+		
+		
+		
+		<!--3. footer-->
+		<div id = "footer">
+			<p>
+				<a href ="index.html"> Home </a>|
+				<a href ="html/about.html"> About </a>|
+				<a href ="html/server.html"> Services </a>|
+				<a href ="html/success.html"> Search </a>|
+				<a href="#"> Privacy Policy </a>|
+				<a href="#"> Legal Disclaimer </a>|
+				<a href="#"> Non-Discrimination Policy </a>|
+				<a href="#"> Accessible Technology </a>	
+			</p>
+			<p>
+				&copy;2018 Marquette University
+			</p>
+		</div>
+	</body>
+</html>

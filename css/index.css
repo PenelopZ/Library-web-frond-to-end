@@ -1,0 +1,82 @@
+#main .banner{
+	/*width: 1141px;*/
+	height: 458px;
+	background: red;
+	/*margin: 0 auto;*/
+	width: 100%;
+	background: url(../img/campus-aerials.png);
+}
+#main .our{
+	/*width: 1141px;*/
+	width: 100%;
+	/*height: 545px;*/
+	height: 490px;
+	padding-top: 55px;
+	background: #223C59;
+	margin: 0 auto;
+	text-align: center;
+}
+#main .our .title{
+	color: white;
+	font-size: 24px;
+	line-height: 42px;
+}
+#main .our .detail{
+	font-size: 13px;
+	line-height: 52px;
+	color: white;
+}
+#main .our .show{
+	width: 1141px;
+	/*height: 396px;*/
+	shape-margin: 326px;
+	/*background: red;*/
+	margin: 0 auto;
+	padding-top: 70px;
+}
+#main .our .show .section{
+	width: 342px;
+	/*height: 260px;*/
+	height: 166px;
+	/*background: blue;*/
+	float: left;
+	position: relative;
+	padding-top: 94px;
+	background: palegoldenrod;
+}
+#main .our .show .section .clock{
+	background: url(../img/colock.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 105px;
+	top: -65px;
+}
+#main .our .show .section .help{
+	background: url(../img/help.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 105px;
+	top: -65px;
+}
+#main .our .show .section .visitor{
+	background: url(../img/visitor.png) no-repeat;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 105px;
+	top: -65px;
+}
+#main .our .show .section h4{
+	font-size: 17px;
+	color: #f75a53;
+	line-height: 45px;
+}
+#main .our .show .section p{
+	font-size: 13px;
+	line-height: 30px;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
